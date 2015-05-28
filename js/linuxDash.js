@@ -507,6 +507,9 @@ linuxDash.directive('themeSwitcher',['$location', function($location) {
             {
                 name: 'fall',
             },
+			{
+				name: 'modern',
+			}
         ];
 
         scope.themeSwitcherOpen = false;
@@ -521,6 +524,7 @@ linuxDash.directive('themeSwitcher',['$location', function($location) {
             scope.removeExistingThemes();
             theme.selected = true;
             document.getElementsByTagName('html')[0].className = theme.name;
+			document.getElementById('theme-css').setAttribute('href', 'css/themes/'+theme.name+'.css')
             localStorage.setItem('theme', theme.name);
         };
 

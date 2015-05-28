@@ -1,0 +1,21 @@
+/**************************************
+  Theme: Spring
+**************************************/
+
+html.spring {
+  clear: both;
+  background: url(../../img/themes/food.png);
+}
+html.spring .hero nav-bar ul li.active a,
+html.spring .hero nav-bar ul li a:hover {
+  color: #E65100;
+}
+html.spring .plugin {
+  background-color: rgba(255,255,255,0.95);
+}
+html.spring .plugin .top-bar {
+  color: #FF6D00;
+}
+html.spring .plugin refresh-btn button {
+  background-color: #E65100;
+}

@@ -1,0 +1,18 @@
+/**************************************
+  Theme: Fall
+**************************************/
+
+html.fall {
+  background: url(../../img/themes/skulls.png);   
+}
+html.fall .plugin {
+  background: url(../../img/themes/crossword.png);
+}
+html.fall .hero nav-bar ul li.active a,
+html.fall .hero nav-bar ul li a:hover,
+html.fall .plugin .top-bar {
+  color: #F09819;
+}
+html.fall .plugin refresh-btn button {
+  background-color: #FF512F;
+}

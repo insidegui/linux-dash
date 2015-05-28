@@ -1,0 +1,52 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+html.modern {
+	border-top-color:#f9f9f9;
+}
+html.modern .hero {
+	padding:50px 0;
+}
+html.modern .hero h4 {
+	font-weight:200;
+	font-size:300%;
+}
+html.modern .hero small,
+html.modern .hero h4 {
+	color:#bbb;
+}
+html.modern body, html.modern  {
+	background:#f9f9f9;
+}
+html.modern .hero nav-bar ul li a {
+	color:#bbb;
+}
+html.modern .hero nav-bar ul li.active a,
+html.modern .hero nav-bar ul li a:hover,
+html.modern .plugin .top-bar {
+	color:#1D7DEE;
+}
+html.modern refresh-btn button {
+	background-color:#1D7DEE;
+}
+html.modern refresh-btn button:hover {
+	background-color:#57A5FF;
+}
+
+html.modern .spinner > div {
+	background-color:#1D7DEE;
+}
+
+html.modern .plugin {
+	box-shadow:0px 0px 15px rgba(0,0,0,0.1);
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+html.modern .progress-bar {
+	background-color:#eee;
+}
+html.modern .progress-bar > div {
+	background-color:#1D7DEE;
+}

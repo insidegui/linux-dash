@@ -1,0 +1,21 @@
+/**************************************
+  Theme: Summer
+**************************************/
+
+html.summer {
+  clear: both;
+  background: url(../../img/themes/congruent_pentagon.png);
+}
+html.summer .hero nav-bar ul li.active a,
+html.summer .hero nav-bar ul li a:hover {
+  color: #D84315;
+}
+html.summer .plugin{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+html.summer .plugin .top-bar {
+  color: #BF360C;
+}
+html.summer .plugin refresh-btn button {
+  background-color: #BF360C;
+}
